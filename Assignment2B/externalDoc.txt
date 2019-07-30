@@ -1,0 +1,291 @@
+Name: Yinsheng Dong
+Student Number: 11148648
+NSID: yid164
+Lecture Section; CMPT 270
+
+1. 
+I think it necessary to compile and execute all three classes individually because I must make sure a class works fine, so that I can use this class in my next class. If any previous class were wrong, when I use it in next class, I will come to a dead loop, and it will waste my time. Also, solving mistake in one class is easier than finding mistake in many classes.
+
+2. I am sure all my assignment works fine, I have tried every method in my main function.
+
+My choice is (vi) working perfectly and thoroughly tested. I will copy my result on this text document.
+
+(a)
+Person class:
+
+Please enter the name: 
+Ken
+Please enter the phone number: 
+(306)-111-2222
+Name: Ken Telephone number: (306)-111-2222
+Need change phone number? y/n
+y
+Please enter the new phone number:
+(306)-222-1111
+Name: Ken Telephone number: (306)-222-1111 
+
+
+
+(b)
+Booking class:
+
+Please enter the person's name: 
+Ken Dong
+Please enter the person's telephone number: 
+(306)-111-2222
+Please enter the Flight number: 
+AC1080
+Please enter the seat number: 
+14A
+Person info: Name: Ken Dong Telephone number: (306)-111-2222 Seat info: 14A the Flight info: AC1080
+Need to change the seat number? y/n
+y
+Please enter the new seat number: 
+15A
+The new info: Person info: Name: Ken Dong Telephone number: (306)-111-2222 Seat info: 15A the Flight info: AC1080
+
+(c)
+BasicFlight class
+
+(1)
+Please enter the number of flight: 
+14
+Please enter the width: 
+5
+Please enter the capacity: 
+20
+Please enter the person name: 
+Ken Dong
+Please enter the person's telephone number: 
+(306)-222-1111
+Please enter the Flight number: 
+AC0980
+Please enter the seat number: 
+4B
+1A
+null
+1B
+null
+1C
+null
+1D
+null
+1E
+null
+2A
+null
+2B
+null
+2C
+null
+2D
+null
+2E
+null
+3A
+null
+3B
+null
+3C
+null
+3D
+null
+3E
+null
+4A
+null
+4B
+Person info: Name: Ken Dong Telephone number: (306)-222-1111 Seat info: 4B the Flight info: AC0980
+4C
+null
+4D
+null
+4E
+null
+The index converted by the seat: 16
+Would you like add a new person? y/n
+y
+Please enter the new name: 
+John 
+Please enter the new person's telephone number: 
+(306)-222-5555
+Please enter the new person's seat number: 
+4B
+Sorry, the seat has booked byPerson info: Name: Ken Dong Telephone number: (306)-222-1111 Seat info: 4B the Flight info: AC0980
+Please enter a integer index to convert to the seat number
+9
+2E
+
+(2)
+Please enter the number of flight: 
+15
+Please enter the width: 
+6
+Please enter the capacity: 
+36
+Please enter the person name: 
+Ken
+Please enter the person's telephone number: 
+(306)-333-3333
+Please enter the Flight number: 
+AU0999
+Please enter the seat number: 
+5B
+1A
+null
+1B
+null
+1C
+null
+1D
+null
+1E
+null
+1F
+null
+2A
+null
+2B
+null
+2C
+null
+2D
+null
+2E
+null
+2F
+null
+3A
+null
+3B
+null
+3C
+null
+3D
+null
+3E
+null
+3F
+null
+4A
+null
+4B
+null
+4C
+null
+4D
+null
+4E
+null
+4F
+null
+5A
+null
+5B
+Person info: Name: Ken Telephone number: (306)-333-3333 Seat info: 5B the Flight info: AU0999
+5C
+null
+5D
+null
+5E
+null
+5F
+null
+6A
+null
+6B
+null
+6C
+null
+6D
+null
+6E
+null
+6F
+null
+The index converted by the seat: 25
+Would you like add a new person? y/n
+y
+Please enter the new name: 
+Tina
+Please enter the new person's telephone number: 
+(306)-000-0000
+Please enter the new person's seat number: 
+2A
+The seat is available
+
+1A
+null
+1B
+null
+1C
+null
+1D
+null
+1E
+null
+1F
+null
+2A
+Person info: Name: Tina Telephone number: (306)-000-0000 Seat info: 2A the Flight info: AU0999
+2B
+null
+2C
+null
+2D
+null
+2E
+null
+2F
+null
+3A
+null
+3B
+null
+3C
+null
+3D
+null
+3E
+null
+3F
+null
+4A
+null
+4B
+null
+4C
+null
+4D
+null
+4E
+null
+4F
+null
+5A
+null
+5B
+Person info: Name: Ken Telephone number: (306)-333-3333 Seat info: 5B the Flight info: AU0999
+5C
+null
+5D
+null
+5E
+null
+5F
+null
+6A
+null
+6B
+null
+6C
+null
+6D
+null
+6E
+null
+6F
+null
+Please enter a integer index to convert to the seat number
+42
+8A
