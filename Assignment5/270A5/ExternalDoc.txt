@@ -1,0 +1,11 @@
+Name: Yinsheng Dong
+Student Number: 11148648
+NSID: yid164
+Lecture Section: CMPT 270
+
+(i)
+
+To execute my project, you can double click the FlightReservation.jar file on the Desktop or enter “java -jar FlightReservation.jar” in Terminal
+
+(ii）
+I think the status of my assignment, I finished all the requirements that assignment required. Ohterwise, my project can perfectly run. Also, I set the letter font in the main frame, and I set up the letter colour when the error message occurs.

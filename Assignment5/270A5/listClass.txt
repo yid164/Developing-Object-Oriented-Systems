@@ -1,0 +1,15 @@
+Name: Yinsheng Dong
+Student Number: 11148648
+NSID: yid164
+Lecture Section: CMPT 270
+
+in startup package:
+	Startup.java
+
+in gui package:
+	MainFrame.java
+	AddNewFlgihtFrame.java
+	AddPassengerFrame.java
+	DisplayAllFlightFrame.java
+	DisplayAllPassengerFrame.java
+	HandleFlightFrame.java
