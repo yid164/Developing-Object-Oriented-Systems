@@ -1,0 +1,134 @@
+Name: Yinsheng Dong
+Student Number: 11148648
+NSID: yid164
+Lecture: CMPT 270
+
+
+
+
+Application 1: Flight reservation system 
+
+Airplane
+	int capacity
+	String model
+	String flightNumber
+	String departTime
+	String arrivalTime
+
+	addPassenger()
+	deletePassenger()
+	getDepartureTime()
+	getArrivalTime()
+end Airplane
+
+Ticket
+	String ticketNumber
+	String passengerNumber
+	String departLocation
+	String arrivalLocation
+	List Ariplane
+	
+	paymentAmount()
+	cancelTicket()
+end Ticket
+
+TicketClerk
+	String passengerFullName
+	String location
+	double totalPrice
+
+	reserveSeats()
+	reserveTicket()
+	cancelTicket()
+	paymentReceive()
+end TicketClerk
+
+Passenger
+	String firstName
+	String lastName
+	String address
+	String phoneNumber
+	String gender
+	String dateOfBirth
+	String passportNumber
+	List Airplane	
+
+	getFullName()
+	getAddress()
+	getBirthday()
+	getPassport()
+	searchFlights()
+	viewSchedules()
+	purchaseTicket()
+	makePayment()
+	reserveSeats()
+	cancelTickets()
+	addFlight()
+	deleteFlight()
+end Passenger
+
+Application 2: A Hospital’s Patient Management System
+
+Reception
+	String name
+	int receptionId
+
+	checkBedAvailability()
+	bookBed()
+	managePatientDetails()
+	makeBill()
+end Reception
+
+Doctors
+	String doctorName
+	String department
+	int doctorId
+	String specialization
+	String phoneNumber
+	
+	getPatients()
+	decideTest()
+	checkReports()
+	decideMedicine()
+end Doctors
+
+Departments
+
+	List Doctors
+	int Id
+
+	addDoctors()
+	addDepartments()
+	deleteDoctors()
+	deleteDepartments()
+end Departments
+
+Patients
+	String patientNames
+	String phoneNumber
+	String address
+	String patientDepartments
+	String patientSpecialization
+	int age
+	String Sex
+	int patientId
+	int bedId
+
+	BillPayment()
+end Patients
+
+Beds
+	int bedNumber
+	int capacity
+	List Patients
+	
+	getPatients()
+	addPatients()
+	deletePatients()
+end Beds
+
+Bills
+	String billNumber
+	String patientName
+	double amount
+end Bills
