@@ -1,0 +1,185 @@
+Student Name: Yinsheng Dong
+Student Number: 11148648
+NSID: yid164
+Lecture Section: CMPT 270
+
+
+(i)
+Firstly, I tested every class in itself, by using main and toString function to make sure every function in the class works, and I tested every operation in the system
+
+(ii) 
+
+I think in my assignment everything is working.
+
+(1) the 2nd operation:
+Please Enter A Number to Choose Your Options
+2
+We want to get your info.   Please enter your name:
+Ken
+Please enter your telephone number:
+3062512189
+Okay, Let's go to next step. 
+Please Enter A Number to Choose Your Options
+2
+We want to get your info.   Please enter your name:
+Dan
+Please enter your telephone number:
+12345678
+Okay, Let's go to next step. 
+Please Enter A Number to Choose Your Options
+8
+ Name: Dan Telephone Number: 12345678
+Name: Ken Telephone Number: 3062512189
+
+Please Enter A Number to Choose Your Options
+
+(2) the 3rd operation
+Please Enter A Number to Choose Your Options
+3
+We are going to add a new flight to the system.  
+Please enter flight number:
+1234
+Please enter flight width:
+4
+Please enter flight capacity:
+20
+Please Enter A Number to Choose Your Options
+9
+Number: 1234Width: 4 Capacity: 20
+
+Please Enter A Number to Choose Your Options
+
+(3) the 4th operation
+Please Enter A Number to Choose Your Options
+3
+We are going to add a new flight to the system.  
+Please enter flight number:
+123
+Please enter flight width:
+4
+Please enter flight capacity:
+20
+Please Enter A Number to Choose Your Options
+4
+Enter the flight number to see the empty seats:
+123
+EMPTY SEATS: 
+1A
+
+1B
+
+1C
+
+1D
+
+2A
+
+2B
+
+2C
+
+2D
+
+3A
+
+3B
+
+3C
+
+3D
+
+4A
+
+4B
+
+4C
+
+4D
+
+5A
+
+5B
+
+5C
+
+5D
+
+Please Enter A Number to Choose Your Options
+
+(4)the 5th operation
+Please Enter A Number to Choose Your Options
+2
+We want to get your info.   Please enter your name:
+Ken
+Please enter your telephone number:
+123456
+Okay, Let's go to next step. 
+Please Enter A Number to Choose Your Options
+2
+We want to get your info.   Please enter your name:
+Dan
+Please enter your telephone number:
+1234567
+Okay, Let's go to next step. 
+Please Enter A Number to Choose Your Options
+3
+We are going to add a new flight to the system.  
+Please enter flight number:
+1234567
+Please enter flight width:
+3
+Please enter flight capacity:
+9
+Please Enter A Number to Choose Your Options
+5
+We are going book a regular passenger on a flight, enter the passenger name
+Dan
+Please enter flight number:
+1234567
+
+(5) 6th operation
+Please Enter A Number to Choose Your Options
+2
+We want to get your info.   Please enter your name:
+Ken
+Please enter your telephone number:
+12345
+Okay, Let's go to next step. 
+Please Enter A Number to Choose Your Options
+2
+We want to get your info.   Please enter your name:
+Ken
+Please enter your telephone number:
+12345
+Okay, Let's go to next step. 
+Please Enter A Number to Choose Your Options
+3
+We are going to add a new flight to the system.  
+Please enter flight number:
+123
+Please enter flight width:
+5
+Please enter flight capacity:
+20
+Please Enter A Number to Choose Your Options
+6
+We are going book a first-class passenger on a flight, enter the passenger name
+Ken
+Please enter flight number:
+123
+
+(6)7th opeartion
+We are going to assgin a seat to the passenger, please enter the passenger name:
+Ken
+Please enter the flight number:
+123
+Please enter the seat: 
+1A
+Please Enter A Number to Choose Your Options
+
+(7) 8th operation
+Please Enter A Number to Choose Your Options
+8
+ Name: Ken Telephone Number: 12345
+
+I am pretty sure I am correct
