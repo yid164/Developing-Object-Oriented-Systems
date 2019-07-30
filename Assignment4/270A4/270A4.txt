@@ -1,0 +1,272 @@
+Name: Yinsheng Dong
+Student Number: 11148648
+NSID: yid164
+Lecture Section: CMPT 270
+
+1.
+external documentation:
+
+(i)
+I used Eclipse to write code, and import commands package into system class, and run them in the system class, and try them if they work. Then I packed all of them in a .jar file, and use terminal (Mac) to execute, try the every command.
+
+(ii)
+I think in this assignment, everything should be working. I tested every command, and I found every command can be executed well. So I think my assignment should be in (v)
+
+2. Listing of all the classes:
+
+In commands package:
+(1). CommandStatus()
+(2). AddNewPassenger()
+(3). BookRegularFlight()
+(4). DisplaySeats()
+In containers package:
+(5). FlightAccess()
+(6). PassengerAccess()
+In entities package:
+(7). BasicFlight()
+(8). Booking()
+(9). FirstClassBooking()
+(10). Flight()
+(11). Passenger()
+(12). Person()
+In interfaces package
+(13). GetFlight()
+(14). GetPassenger()
+(15). GetStartInterface()
+In startup package
+(16). FlightReservationSystem()
+
+
+3.
+Please select an operation to do
+0: quit
+1: add a new passenger
+2: add a new flight
+3: display the empty seats of a flight
+4: book a passenger on a flight
+5: book a first-class passenger on a flight
+6: assign a passenger a seat
+7: display all the passengers
+8: display all the flights
+Enter the number of your selection: 1
+Enter the name of the passenger: Ken
+Enter the telephone number of the passenger: 
+12345678
+Please select an operation to do
+0: quit
+1: add a new passenger
+2: add a new flight
+3: display the empty seats of a flight
+4: book a passenger on a flight
+5: book a first-class passenger on a flight
+6: assign a passenger a seat
+7: display all the passengers
+8: display all the flights
+Enter the number of your selection: 1
+Enter the name of the passenger: Dan
+Enter the telephone number of the passenger: 
+1234567890
+Please select an operation to do
+0: quit
+1: add a new passenger
+2: add a new flight
+3: display the empty seats of a flight
+4: book a passenger on a flight
+5: book a first-class passenger on a flight
+6: assign a passenger a seat
+7: display all the passengers
+8: display all the flights
+Enter the number of your selection: 2
+Enter the number of the flight: 11
+Enter the width of the flight: 4
+Enter the capacity of the flight: 20
+Please select an operation to do
+0: quit
+1: add a new passenger
+2: add a new flight
+3: display the empty seats of a flight
+4: book a passenger on a flight
+5: book a first-class passenger on a flight
+6: assign a passenger a seat
+7: display all the passengers
+8: display all the flights
+Enter the number of your selection: 3
+Enter the number of the flight: 11
+The available seats are 
+  1A  1B  1C  1D
+  2A  2B  2C  2D
+  3A  3B  3C  3D
+  4A  4B  4C  4D
+  5A  5B  5C  5D
+
+Please select an operation to do
+0: quit
+1: add a new passenger
+2: add a new flight
+3: display the empty seats of a flight
+4: book a passenger on a flight
+5: book a first-class passenger on a flight
+6: assign a passenger a seat
+7: display all the passengers
+8: display all the flights
+Enter the number of your selection: 4
+Enter the name of the passenger: Ken
+Enter the number of the flight: 11
+Please select an operation to do
+0: quit
+1: add a new passenger
+2: add a new flight
+3: display the empty seats of a flight
+4: book a passenger on a flight
+5: book a first-class passenger on a flight
+6: assign a passenger a seat
+7: display all the passengers
+8: display all the flights
+Enter the number of your selection: 5
+Enter the name of the passenger: Dan
+Enter the number of the flight: 11
+Enter the seat for the passenger: 
+1A
+Enter the meal plan of the passenger: Beef
+Please select an operation to do
+0: quit
+1: add a new passenger
+2: add a new flight
+3: display the empty seats of a flight
+4: book a passenger on a flight
+5: book a first-class passenger on a flight
+6: assign a passenger a seat
+7: display all the passengers
+8: display all the flights
+Enter the number of your selection: 6
+Enter the name of the passenger: Ken
+Enter the number of the flight: 11
+Enter the seat for the passenger: 
+2A
+Please select an operation to do
+0: quit
+1: add a new passenger
+2: add a new flight
+3: display the empty seats of a flight
+4: book a passenger on a flight
+5: book a first-class passenger on a flight
+6: assign a passenger a seat
+7: display all the passengers
+8: display all the flights
+Enter the number of your selection: 3
+Enter the number of the flight: 11
+The available seats are 
+      1B  1C  1D
+      2B  2C  2D
+  3A  3B  3C  3D
+  4A  4B  4C  4D
+  5A  5B  5C  5D
+
+Please select an operation to do
+0: quit
+1: add a new passenger
+2: add a new flight
+3: display the empty seats of a flight
+4: book a passenger on a flight
+5: book a first-class passenger on a flight
+6: assign a passenger a seat
+7: display all the passengers
+8: display all the flights
+Enter the number of your selection: 7
+
+The passengers in the system are 
+{Dan=
+Name: Dan   Telephone number: 1234567890
+With bookings:
+Flight: 11 in seat 1A
+, Ken=
+Name: Ken   Telephone number: 12345678
+With bookings:
+Flight: 11 in seat 2A
+}
+Please select an operation to do
+0: quit
+1: add a new passenger
+2: add a new flight
+3: display the empty seats of a flight
+4: book a passenger on a flight
+5: book a first-class passenger on a flight
+6: assign a passenger a seat
+7: display all the passengers
+8: display all the flights
+Enter the number of your selection: 8
+
+The flights in the system are 
+{11=
+Flight 11 with capacity 20 and width 4 has passengers: 
+seat 1A: Dan
+seat 1B: 
+seat 1C: 
+seat 1D: 
+seat 2A: Ken
+seat 2B: 
+seat 2C: 
+seat 2D: 
+seat 3A: 
+seat 3B: 
+seat 3C: 
+seat 3D: 
+seat 4A: 
+seat 4B: 
+seat 4C: 
+seat 4D: 
+seat 5A: 
+seat 5B: 
+seat 5C: 
+seat 5D: 
+Passengers without seats: 
+}
+Please select an operation to do
+0: quit
+1: add a new passenger
+2: add a new flight
+3: display the empty seats of a flight
+4: book a passenger on a flight
+5: book a first-class passenger on a flight
+6: assign a passenger a seat
+7: display all the passengers
+8: display all the flights
+Enter the number of your selection: 0
+The system at shutdown is as follows: 
+The passengers in the system are 
+{Dan=
+Name: Dan   Telephone number: 1234567890
+With bookings:
+Flight: 11 in seat 1A
+, Ken=
+Name: Ken   Telephone number: 12345678
+With bookings:
+Flight: 11 in seat 2A
+}
+
+The flights in the system are 
+{11=
+Flight 11 with capacity 20 and width 4 has passengers: 
+seat 1A: Dan
+seat 1B: 
+seat 1C: 
+seat 1D: 
+seat 2A: Ken
+seat 2B: 
+seat 2C: 
+seat 2D: 
+seat 3A: 
+seat 3B: 
+seat 3C: 
+seat 3D: 
+seat 4A: 
+seat 4B: 
+seat 4C: 
+seat 4D: 
+seat 5A: 
+seat 5B: 
+seat 5C: 
+seat 5D: 
+Passengers without seats: 
+}
+
